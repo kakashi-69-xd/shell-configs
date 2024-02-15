@@ -16,8 +16,8 @@ export ZSH="$HOME/.oh-my-zsh"
 ## sammy: ..
 
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="alanpeabody"
-ZSH_THEME="zhann"
+ZSH_THEME="alanpeabody"
+# ZSH_THEME="zhann"
 
 
 
