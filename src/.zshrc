@@ -9,8 +9,17 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
+
+
+## [example,tjkirch_mod,gentoo,michelebologna,itchy,rgm,lukerandall] are a good one looks kinda like kali
+## zhann: very simple just `~`
+## sammy: ..
+
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="alanpeabody"
+# ZSH_THEME="alanpeabody"
+ZSH_THEME="zhann"
+
+
 
 
 
@@ -157,7 +166,12 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 
-
+# enable auto-suggestions based on the history
+if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+  # change suggestion color
+  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
+fi
 
 
 
