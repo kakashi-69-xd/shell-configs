@@ -97,7 +97,7 @@ if [ -f /home/kakashi/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-synt
   ZSH_HIGHLIGHT_STYLES[unknown-token]=underline
   ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=cyan,bold
   ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=green,underline
-  ZSH_HIGHLIGHT_STYLES[global-alias]=fg=green,bold
+  ZSH_HIGHLIGHT_STYLES[global-alias]=fg=cyan,bold
   ZSH_HIGHLIGHT_STYLES[precommand]=fg=green,underline
   ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=blue,bold
   ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=green,underline
@@ -207,3 +207,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias vim=nvim
+
