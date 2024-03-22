@@ -96,11 +96,11 @@ if [ -f /home/kakashi/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-synt
   ZSH_HIGHLIGHT_STYLES[default]=none
   ZSH_HIGHLIGHT_STYLES[unknown-token]=underline
   ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=cyan,bold
-  ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=green,underline
+  ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=cyan,underline
   ZSH_HIGHLIGHT_STYLES[global-alias]=fg=cyan,bold
-  ZSH_HIGHLIGHT_STYLES[precommand]=fg=green,underline
+  ZSH_HIGHLIGHT_STYLES[precommand]=fg=cyan,underline
   ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=blue,bold
-  ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=green,underline
+  ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=blue,underline
   ZSH_HIGHLIGHT_STYLES[path]=bold
   ZSH_HIGHLIGHT_STYLES[path_pathseparator]=
   ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]=
@@ -128,10 +128,10 @@ if [ -f /home/kakashi/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-synt
   ZSH_HIGHLIGHT_STYLES[numeric-fd]=none
   ZSH_HIGHLIGHT_STYLES[arg0]=fg=cyan
   ZSH_HIGHLIGHT_STYLES[bracket-error]=fg=red,bold
-  ZSH_HIGHLIGHT_STYLES[bracket-level-1]=fg=blue,bold
-  ZSH_HIGHLIGHT_STYLES[bracket-level-2]=fg=green,bold
-  ZSH_HIGHLIGHT_STYLES[bracket-level-3]=fg=magenta,bold
-  ZSH_HIGHLIGHT_STYLES[bracket-level-4]=fg=yellow,bold
+  ZSH_HIGHLIGHT_STYLES[bracket-level-1]=fg=violet,bold
+  ZSH_HIGHLIGHT_STYLES[bracket-level-2]=fg=yellow,bold
+  ZSH_HIGHLIGHT_STYLES[bracket-level-3]=fg=blue,bold
+  ZSH_HIGHLIGHT_STYLES[bracket-level-4]=fg=pink,bold
   ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
   ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
 fi
