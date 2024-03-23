@@ -1,5 +1,6 @@
 {
   "tasks": {
     "install": "deno run -A install.ts"
+
   }
 }
